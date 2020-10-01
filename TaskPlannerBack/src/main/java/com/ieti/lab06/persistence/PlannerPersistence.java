@@ -10,7 +10,7 @@ import com.ieti.lab06.pojos.User;
 
 public class PlannerPersistence {
 
-    private List<User> usersArray = new ArrayList<User>();
+    private List<User> usersArray;
 
     public PlannerPersistence(){
         User usr1 = new User("1","jm@mail.com","Jm","Jimmy");
